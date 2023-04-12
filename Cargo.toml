@@ -1,0 +1,13 @@
+[package]
+name = "quiz_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = "=0.5.0-rc.3"
+serde = "1"
+serde_derive = "1"
+serde_json = "1.0.95"
+csv = "1"
+rand = "0"
+lazy_static = "1"
